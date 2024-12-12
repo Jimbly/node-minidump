@@ -1,19 +1,19 @@
 {
   "main": "./lib/minidump.js",
-  "name": "minidump",
+  "name": "@jimbly/minidump",
   "description": "Read and process minidump file",
-  "version": "0.0.0-development",
+  "version": "0.0.6",
   "types": "index.d.ts",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/electron/node-minidump.git"
+    "url": "git+https://github.com/jimbly/node-minidump.git"
   },
   "engines": {
     "node": ">=14"
   },
   "bugs": {
-    "url": "https://github.com/electron/node-minidump/issues"
+    "url": "https://github.com/jimbly/node-minidump/issues"
   },
   "scripts": {
     "prepublishOnly": "shx chmod -R +x ./bin",
