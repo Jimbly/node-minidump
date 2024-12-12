@@ -19,6 +19,11 @@ if (
   process.exit(0)
 }
 
+if (process.platform === 'win32') {
+  console.warn('minidump: building for Win32 platform not supported, invocation will fail')
+  process.exit(0)
+}
+
 function spawnSync (...args) {
   const result = childProcess.spawnSync(...args)
   if (result.error) throw result.error
